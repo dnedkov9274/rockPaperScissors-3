@@ -39,10 +39,17 @@ class ViewController: UIViewController {
     }
     func createAlert(title:String, message:String)
     {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction (title: "ok", style: .default
+        let winAlert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        winAlert.addAction(UIAlertAction (title: "ok", style: .default
             , handler: {(action) in
-                alert.dismiss(animated: true, completion: nil)
+                winAlert.dismiss(animated: true, completion: nil)
+                
+        let loseAlert = UIAlertController(title: "Sorry!", message: "You lost, better luck next time!", preferredStyle: .alert)
+                
+        let tieAlert = UIAlertController(title: "Nice Try!", message: "You tied, try again!", preferredStyle: .alert)
+                
+                
+            
                 
         }))
         
