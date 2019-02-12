@@ -18,9 +18,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
-    
-    
     @IBAction func rock(_ sender: UIButton) {
         
     }
