@@ -18,18 +18,27 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    var imageArray: [UIImage] = [
+        
+        UIImage(named: "rockImage")!,
+        UIImage(named: "paperImage")!,
+        UIImage(named: "scissorsImage")!
+    ]
     
     
     
     @IBAction func rock(_ sender: UIButton) {
         
+        
     }
     
     @IBAction func paper(_ sender: UIButton) {
         
+        
     }
     
     @IBAction func scissors(_ sender: UIButton) {
+        
         
     }
     
@@ -44,12 +53,12 @@ class ViewController: UIViewController {
             , handler: {(action) in
                 winAlert.dismiss(animated: true, completion: nil)
                 
-        let loseAlert = UIAlertController(title: "Sorry!", message: "You lost, better luck next time!", preferredStyle: .alert)
+                let loseAlert = UIAlertController(title: "Sorry!", message: "You lost, better luck next time!", preferredStyle: .alert)
                 
-        let tieAlert = UIAlertController(title: "Nice Try!", message: "You tied, try again!", preferredStyle: .alert)
+                let tieAlert = UIAlertController(title: "Nice Try!", message: "You tied, try again!", preferredStyle: .alert)
                 
                 
-            
+                
                 
         }))
         
