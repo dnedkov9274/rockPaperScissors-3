@@ -26,26 +26,23 @@
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="150"/>
                                         <state key="normal" title="Button" image="rockImage"/>
                                         <connections>
-                                            <action selector="rock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3vc-34-zKS"/>
+                                            <action selector="rock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQR-B3-TQ0"/>
                                             <action selector="rockChoice:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="1SV-FD-wmQ"/>
-                                            <action selector="rockChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FE1-id-QrH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5g-Mh-NAe">
                                         <rect key="frame" x="125" y="0.0" width="125" height="150"/>
                                         <state key="normal" title="Button" image="paperImage"/>
                                         <connections>
-                                            <action selector="paper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U8y-41-8Ql"/>
+                                            <action selector="paper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSu-wT-TGc"/>
                                             <action selector="paperChoice:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="PYn-3d-u7o"/>
-                                            <action selector="paperChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bMn-6O-Ngc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdd-7w-iIt">
                                         <rect key="frame" x="250" y="0.0" width="125" height="150"/>
                                         <state key="normal" title="Button" image="scissorsImage"/>
                                         <connections>
-                                            <action selector="scissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhH-jX-juJ"/>
-                                            <action selector="scissorsChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f1G-bd-cDv"/>
+                                            <action selector="scissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dj7-2E-rvC"/>
                                             <action selector="scissorsChoice:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="rTA-H0-1gJ"/>
                                         </connections>
                                     </button>
@@ -100,13 +97,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="myImage" destination="xi3-Da-QDz" id="IQy-rs-xzf"/>
-                        <outlet property="opponentImage" destination="c2A-07-X0k" id="vZ1-Ky-E9Y"/>
+                        <outlet property="myImage" destination="xi3-Da-QDz" id="oVH-jl-tjx"/>
+                        <outlet property="opponentImage" destination="c2A-07-X0k" id="Ph9-Ge-f2O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.19999999999999" y="132.68365817091455"/>
+            <point key="canvasLocation" x="-228" y="80"/>
         </scene>
     </scenes>
     <resources>
