@@ -22,28 +22,25 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7PF-xl-3Pg">
                                 <rect key="frame" x="0.0" y="313.5" width="375" height="150"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0z1-xM-Wpg">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnB-Y2-eoO">
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="150"/>
                                         <state key="normal" title="Button" image="rockImage"/>
                                         <connections>
-                                            <action selector="rock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQR-B3-TQ0"/>
-                                            <action selector="rockChoice:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="1SV-FD-wmQ"/>
+                                            <action selector="rock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QWb-SJ-Z5s"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5g-Mh-NAe">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGj-rV-WdQ">
                                         <rect key="frame" x="125" y="0.0" width="125" height="150"/>
                                         <state key="normal" title="Button" image="paperImage"/>
                                         <connections>
-                                            <action selector="paper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSu-wT-TGc"/>
-                                            <action selector="paperChoice:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="PYn-3d-u7o"/>
+                                            <action selector="paper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OgV-NU-kFs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdd-7w-iIt">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3L-YM-QM4">
                                         <rect key="frame" x="250" y="0.0" width="125" height="150"/>
                                         <state key="normal" title="Button" image="scissorsImage"/>
                                         <connections>
-                                            <action selector="scissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dj7-2E-rvC"/>
-                                            <action selector="scissorsChoice:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="rTA-H0-1gJ"/>
+                                            <action selector="scissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p52-ce-BFC"/>
                                         </connections>
                                     </button>
                                 </subviews>
